@@ -1,0 +1,57 @@
+<!-- This is the main folder for landing page HTML ONLY -->
+
+
+<!-- I need to add functionality to this page... maybe by 
+    prompting for a username to be displayed during the games
+OR I can do this at the beging of starting each game... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landingPage</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+    
+    <header>Kaleb's Arcade</header>
+
+    <div>
+        <p id="introMsg">Hello! Welcome to my arcade! Below is a small collection of
+            a few games I built. Lets see if you are up to the challenge!
+        </p>
+    </div>
+
+        <section id="items">
+
+            <div class="game"> <h3>Tic-Tac-Toe</h3> 
+                <img class="item-image" src=https://media.giphy.com/media/Awg0daMM4WxO9ee5vF/giphy.gif alt="Tic-Tac-Toe">
+                <button class="playButton" id="ticTacToePlayButton" onclick="window.location.href='ticTacToe.html';">Play!</button>
+            </div>
+
+            <div class="game"> <h3>Snake</h3> 
+                <img class="item-image" src="https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/body_image/public/risefallofnokia_blockade.gif?itok=rSx4M7kS&mtime=1542250019" alt="Snake"> 
+                <button class="playButton" id="snakePlayButton" onclick="window.location.href='snake.html';">Play!</button>
+            </div>
+
+            <!-- <div class="game"> <h3>Mancala</h3> 
+                <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpTbKX7xS5rKLZJshXMfcg90giyDC5MBrElzKwz1hELWsgzeKvLqxHnes5ImKQjnqaAw&usqp=CAU" alt="Mancala"> 
+                <button class="playButton" id="mancalaPlayButton" onclick="window.location.href='mancala.html';">Play!</button>
+            </div> -->
+
+            <div class="game"> <h3>Connect Four</h3> 
+                <img class="item-image" src="https://pxt.azureedge.net/api/01198-59185-22439-35128/thumb" alt="ConnectFour"> 
+                <button class="playButton" id="connectFourPlayButton" onclick="window.location.href='connect4.html';">Play!</button>
+            </div>
+
+        </section>
+
+    <div id="footer">
+        <footer>
+            <p id="footerMsg">This is a collection of games that were created using HTML, CSS, and JavaScript!</p>
+        </footer>
+    </div>
+
+</body>
+</html>
